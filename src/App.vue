@@ -1,6 +1,5 @@
 <script setup>
 import { reactive } from 'vue';
-import Cabecalho from './components/cabecalho.vue'
 
 const estado = reactive({
   operacoes: 'adicao',
@@ -30,7 +29,7 @@ const res = () => {
     <header class="p-5 mt-5 mb-3 bg-dark rounded-3 text-white">
         <h1 class="text-center">Calculadora</h1>
     </header>
-    
+
     <form class="mb-2 text-center p-2" action="">
       <div class="d-flex justify-content-center mb-3">
         <input @keyup="evento => estado.num1 = evento.target.value" type="number">
