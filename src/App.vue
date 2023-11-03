@@ -1,6 +1,6 @@
 <script setup>
 import { reactive } from 'vue';
-import Cabecalho from './components/cabecalho.vue';
+import Cabecalho from './components/cabecalho.vue'
 
 const estado = reactive({
   operacoes: 'adicao',
