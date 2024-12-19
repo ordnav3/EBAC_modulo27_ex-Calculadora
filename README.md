@@ -1,29 +1,19 @@
-# modulo27ex
+# EBAC_modulo27_ex-Calculadora
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto é uma **calculadora simples** desenvolvida com **Vue 3** e **Vite**. O objetivo principal é fornecer uma interface de usuário interativa para realizar operações matemáticas básicas, como soma, subtração, multiplicação e divisão.
 
-## Recommended IDE Setup
+Foi desenvolvido utilizando **Vue 3**, com a configuração inicial otimizada pelo **Vite**.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Tecnologias Utilizadas
 
-## Customize configuration
+- **Vue 3**: Framework progressivo para construir interfaces de usuário.
+- **Vite**: Ferramenta de build moderna que oferece um tempo de recarga rápido durante o desenvolvimento.
+- **JavaScript**: Linguagem de programação para implementar a lógica da calculadora.
+- **CSS**: Para estilização da interface da aplicação.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Funcionalidades
 
-## Project Setup
+- **Operações Básicas**: Realiza as operações matemáticas tradicionais como adição, subtração, multiplicação e divisão.
+- **Interface Intuitiva**: Design simples e fácil de usar.
+- **Responsividade**: O layout da calculadora é adaptável a diferentes tamanhos de tela.
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
